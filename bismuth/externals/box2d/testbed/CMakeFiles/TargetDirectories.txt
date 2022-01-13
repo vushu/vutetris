@@ -1,0 +1,3 @@
+/home/vushu/coding/cpp/somethingcpp/bismuth/externals/box2d/testbed/CMakeFiles/rebuild_cache.dir
+/home/vushu/coding/cpp/somethingcpp/bismuth/externals/box2d/testbed/CMakeFiles/edit_cache.dir
+/home/vushu/coding/cpp/somethingcpp/bismuth/externals/box2d/testbed/CMakeFiles/testbed.dir

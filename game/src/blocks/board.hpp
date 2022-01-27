@@ -34,5 +34,6 @@ namespace blocks {
             std::string currentBlock = "L";
             std::map<std::string, Block> tetrominoes;
             glm::vec2 position = {0,0};
+
     };
 }

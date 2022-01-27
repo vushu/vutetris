@@ -113,6 +113,7 @@ void Board::setupDebugButton()
     this->rotateLeftDebugButton->positionCenterTo({ 0, 0 }, { bi::ioManager().camera->width, bi::ioManager().camera->height });
 
     this->rotateLeftDebugButton->onLeftMousePressed([&](bi::gui::GuiButton& button) {
+        tetrominoes.at(currentBlock).rotateLeft();
     });
 }
 

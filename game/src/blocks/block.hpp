@@ -14,11 +14,14 @@ public:
     void setBlock(std::string blockLetter);
     void draw();
     void setOffset(glm::vec2 position);
+    void rotateLeft();
+    void rotateRight();
 
     void incrementTilePos(glm::vec2 tilePos);
 
     void setTilePos(glm::vec2 tilePos);
     glm::vec2 getTilePos();
+    void setPosition(glm::vec2 position);
 
 private:
     std::string currentBlock = "L";
@@ -27,5 +30,7 @@ private:
     glm::vec2 offset = glm::vec2 { 0.0f, 0.0f };
     glm::mat4 coords;
     glm::vec2 tilePos = { 0, 0 };
+    glm::vec2 position = { 0, 0 };
+    int shapeCoords[4][2];
 };
 }
